@@ -13,7 +13,7 @@ offset = 20
 img_size = 300
 counter = 0
 # This is the path where all the photos of alphabates are stored in seperate folder like A, B, C, ........., Z
-# I have added on;ly four you can add as many as you want oviously till z
+# I have added only four you can add as many as you want oviously till z
 folder = "D:\Python\Project\Deep Learning\Computer vision\Sign Language\A"
 
 while True:
@@ -53,7 +53,7 @@ while True:
         cv2.imshow("Image white", img_white)
 
 
-    
+    # This is click images to train our model as sson as we click on "s" the model will start taking pictures
     cv2.imshow("Image", img)
     key = cv2.waitKey(1)
     if key == ord("s"):     
@@ -66,6 +66,6 @@ while True:
 
 
 
-
+# Copy right reserved to Tanishk Chauhan
 
  
