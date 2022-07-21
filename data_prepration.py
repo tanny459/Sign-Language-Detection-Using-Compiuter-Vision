@@ -12,6 +12,8 @@ detector = HandDetector(maxHands = 2)
 offset = 20
 img_size = 300
 counter = 0
+# This is the path where all the photos of alphabates are stored in seperate folder like A, B, C, ........., Z
+# I have added on;ly four you can add as many as you want oviously till z
 folder = "D:\Python\Project\Deep Learning\Computer vision\Sign Language\A"
 
 while True:
