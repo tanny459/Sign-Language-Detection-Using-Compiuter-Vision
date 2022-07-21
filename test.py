@@ -68,3 +68,4 @@ while True:
     cv2.imshow("Image", image_output)
     cv2.waitKey(1)
 
+# Copywrights reserved to Tanishk Chauhan
