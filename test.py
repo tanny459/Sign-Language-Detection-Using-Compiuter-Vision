@@ -14,7 +14,7 @@ Classifier = Classifier("D:\Python\Project\Deep Learning\Computer vision\Sign La
 offset = 20
 img_size = 300
 counter = 0
-#folder = "D:\Python\Project\Deep Learning\Computer vision\Sign Language\D"
+# You cand add all the alphabates if you wish right down below in the list of labels
 labels = ["A", "B", "C", "D"]
 
 while True:
